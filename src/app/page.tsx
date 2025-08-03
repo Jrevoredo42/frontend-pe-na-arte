@@ -1,12 +1,9 @@
-import HomeNav from "@/Components/nav";
 import Image from "next/image";
-import Link from "next/link";
+
 
 export default function Home() {
   return (
     <main className="relative min-h-screen w-full overflow-hidden">
-      <HomeNav />
-
       {/* Hero Section */}
       <section className="relative flex flex-col md:flex-row items-center justify-between overflow-visible px-0 w-full pt-36 mb-14 min-h-screen">
         <Image
@@ -28,12 +25,12 @@ export default function Home() {
             />
           </div>
           <div className="flex flex-col items-center md:items-start ml-18 mt-7"> 
-          <p className="font-poppins text-white text-lg max-w-md mb-6 text-center md:text-left">
-            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecid
-          </p>
-          <button className="font-poppins font-regular px-8 py-3 rounded-full border-2 border-[var(--laranjalaranja-default)] text-white font-bold hover:bg-[var(--laranjalaranja-default)] transition">
-            Saiba Mais
-          </button>
+            <p className="font-poppins text-white text-lg max-w-md mb-6 text-center md:text-left">
+              Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecid
+            </p>
+            <button className="font-poppins font-regular px-8 py-3 rounded-full border-2 border-[var(--laranjalaranja-default)] text-white font-bold hover:bg-[var(--laranjalaranja-default)] transition">
+              Saiba Mais
+            </button>
           </div>
         </div>
       </section>

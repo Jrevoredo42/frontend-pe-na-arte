@@ -62,7 +62,7 @@ export default function HomeNav(){
           ) : (
             <div className="flex flex-row items-center gap-9">
               <SearchBar />
-              <Image className="font-sans antialiased font-medium text-base md:text-lg lg:text-xl text-current" width={30} height={30} src={"/icons/coracao.svg"} alt="" />
+              <Image className="font-sans antialiased font-medium text-base md:text-lg lg:text-xl text-current" width={30} height={30} src={"/icons/heart.svg"} alt="" />
               <UserIcon />
             </div>
           )}
