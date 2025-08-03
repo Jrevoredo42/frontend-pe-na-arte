@@ -1,3 +1,5 @@
+'use client'
+
 import Link from "next/link";
 
 export default function Sobre() {
@@ -9,17 +11,3 @@ export default function Sobre() {
     </>
   )
 }
-
-/**
-import Link from "next/link";
-
-export default function Sobre() {
-  return (
-    <>
-     <h1></h1>
-
-  <Link href="">Página </Link>
-    </>
-  )
-}
- */
