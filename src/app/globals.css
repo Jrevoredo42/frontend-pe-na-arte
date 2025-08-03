@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "preline/variants.css";
 
 :root {
 --amareloamarelo-dark: rgba(204, 132, 0, 1);
@@ -33,19 +34,10 @@
   --verdeverde-light: rgba(29, 162, 184, 1);
 }
 
-@theme {
+:root {
   --font-poppins: "Poppins", sans-serif;
   --font-inter: "Inter", sans-serif;
 }
-
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
