@@ -51,7 +51,7 @@ export default function SimpleCard(){
           className="rounded-md border font-semibold border-[#FFD6C0] w-30 h-13 px-3 py-1 text-[12px] 
                     transition-colors duration-200 bg-[var(--verdeverde-default)] 
                     text-[var(--branco-penaarte)] hover:bg-[var(--branco-penaarte)] 
-                    hover:text-[var(--escala-de-cinzapreto-cinza-100)]"
+                    hover:text-[var(--escala-de-cinzapreto-cinza-100)] cursor-pointer"
           style={{
             minWidth: "80px",
             boxShadow: "0 2px 6px 0 rgba(0,0,0,0.10)",
