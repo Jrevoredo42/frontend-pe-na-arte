@@ -49,9 +49,10 @@ export default function HomeNav(){
            />
          </div>
          <ul className="flex gap-26 ml-13 text-white text-[20px] font-inter font-extrabold">
-           <li>Início</li>
-           <li><Link className="transition" href='/sobre'>Sobre</Link></li>
-           <li>Galeria</li>
+           <li><Link className="transition cursor-pointer hover:text-[var(--escala-de-cinzacinza-700)] font-poppins" href='/'>Início</Link></li>
+           <li><Link className="transition cursor-pointer hover:text-[var(--escala-de-cinzacinza-700)] font-poppins" href='/Artista'>Artista</Link></li>
+           <li><Link className="transition cursor-pointer hover:text-[var(--escala-de-cinzacinza-700)] font-poppins" href='/Galeria'>Galeria</Link></li>
+           <li><Link className="transition cursor-pointer hover:text-[var(--escala-de-cinzacinza-700)] font-poppins" href='/Obra'>Obra</Link></li>
          </ul>
          <div className="flex gap-4 items-center">
           {isHomePage ? (
@@ -62,7 +63,7 @@ export default function HomeNav(){
           ) : (
             <div className="flex flex-row items-center gap-9">
               <SearchBar />
-              <Image className="font-sans antialiased font-medium text-base md:text-lg lg:text-xl text-current" width={30} height={30} src={"/icons/heart.svg"} alt="" />
+              <Image className="font-sans antialiased font-medium text-base md:text-lg lg:text-xl text-current cursor-pointer hover:bg-[var(--branco-penaarte)]" width={30} height={30} src={"/icons/heart.svg"} alt="" />
               <UserIcon />
             </div>
           )}

@@ -30,6 +30,7 @@ export default function RootLayout({
     >
       <head>
         <title>PE na Arte</title>
+        <link rel="icon" href="/logo-2.svg" type="image/svg+xml" />
       </head>
       <body>
         <HomeNav/>

@@ -1,11 +1,11 @@
 import Image from "next/image";
 import UserIcon from "@/Components/UserIcon";
 
-export default function(){
+export default function HorizontalCard(){
     return (
         <>
           <div
-      className="rounded-[28px] shadow-lg overflow-hidden"
+      className="rounded-[28px] shadow-lg overflow-hiddenw-full max-w-[500px]"
       style={{
         width: "922px",
         height: "274px",

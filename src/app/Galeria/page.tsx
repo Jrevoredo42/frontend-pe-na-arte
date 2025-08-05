@@ -43,7 +43,7 @@ export default function Galeria() {
           </span>
         </div>
     </div>
-    <div className="flex flex-row space-x-15 mt-30 ml-15">
+    <div className="flex flex-row  justify-center items-center space-x-15 mt-30 ml-15">
       <SimpleCard />
        <HorizontalCard />
     </div>

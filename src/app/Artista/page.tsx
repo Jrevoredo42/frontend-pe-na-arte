@@ -1,11 +1,19 @@
-import UserIcon from '@/Components/UserIcon';
+import HorizontalCard from '@/Components/Cards/HorizontalCard';
 import Image from 'next/image';
+import CardArtist from '@/Components/Cards/CardArtist';
+import SimpleCard from '@/Components/Cards/SimpleCard';
+
+
 
 export default function Artista() {
   return (
     <>
-      <div className=" w-99 h-[714px] bg-[var(--branco-penaarte)] border-3 rounded-t-4xl rounded-b-4xl border-[var(--azulazul-default)] mt-30 ml-30">
-        <div className="bg-[var(--azulazul-light)] w-full h-[227px] rounded-t-4xl rounded-b-none relative flex flex-row justify-between items-center gap-4">
+    
+      <div className=" grid grid-cols-[400px_1fr] w-full gap-8 min-h-screen px-8 py-8 ">
+        {/* Card de Artista */}
+        <div className="h-[714px] w-99 bg-[var(--branco-penaarte)] border-3 rounded-t-4xl rounded-b-4xl border-[var(--azulazul-default)] mt-30 ml-5">
+        {/* Trecho azul */}
+        <div className="bg-[var(--azulazul-default)] w-full h-[227px] rounded-t-4xl rounded-b-none relative flex flex-row justify-between items-center gap-4">
           <div className="">
             <Image
                   className=" rounded-full w-50 h-40"
