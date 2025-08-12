@@ -42,22 +42,22 @@ export default function Galeria() {
         </div>
     </div>
     <div className="flex flex-row  justify-center items-center space-x-15 mt-30 ml-15">
-      <SimpleCard />
-       <HorizontalCard />
+      <SimpleCard imageSrc="/obras/gabi-da-pele-preta/encruzilhada-agreste1.svg" profileImage="/obras/gabi-da-pele-preta/gabi-da-pele-preta1.svg" oberName="Evento Encruzilhada Agreste"/>
+      <HorizontalCard imageSrc="/obras/Luanda-ruanda/luanda-ruanda-capa1.svg" profileImage="/obras/Luanda-ruanda/luanda-ruanda2.svg" oberName="Contação de histórias Luanda Ruanda" />
     </div>
     <div className="flex flex-row items-start justify-items-start space-x-40 mt-20 ml-15">
-     <SimpleCard />
-     <SimpleCard />
-     <VerticalCard />
+     <SimpleCard imageSrc="obras/revoredo/casaco-oco-isaac2.svg" profileImage="/artistas/revoredo-1.svg" oberName="Livro Casaco Oco do Isaac "/>
+     <SimpleCard imageSrc="/obras/revoredo/dianimal-livro1.svg" profileImage="/artistas/revoredo-1.svg" oberName="Livro Dianimal"/>
+     <VerticalCard imageSrc="/obras/revoredo/o-de-casa1.svg" oberName="Evento Ô de Casa" profileImage="/artistas/revoredo-1.svg"/>
     </div>
     <div className="flex flex-row space-x-40 space-y-10 ml-14 mt-0">
-     <SimpleCard />
-     <SimpleCard />
+     <SimpleCard imageSrc="/obras/gabi-da-pele-preta/gabi-da-pele-preta2.svg" profileImage="/obras/gabi-da-pele-preta/gabi-da-pele-preta1.svg" oberName="Evento Gabi da Pele Preta"/>
+     <SimpleCard imageSrc="/obras/Luanda-ruanda/luanda-ruanda1.svg" profileImage="/obras/Luanda-ruanda/luanda-ruanda2.svg" oberName="Evento Luanda Ruanda nas escolas"/>
     </div>
     <div>
       <CarouselArtist />
     </div>
-    <h2 className="text-4xl font-extrabold font-inter text-[var(--azulazul-default)] py-0 mt-30 -me-0 ml-5 h-17 flex flex-row items-center"> 
+    <h2 className="text-4xl font-extrabold font-inter text-[var(--azulazul-default)] py-0 mt-11 mb-17 -me-0 ml-5 h-17 flex flex-row items-center"> 
     Destaques
     </h2>
       <div className="relative flex flex-row justify-between mt-8 mr-5 ml-7">
