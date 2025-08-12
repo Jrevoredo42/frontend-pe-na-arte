@@ -15,11 +15,9 @@ export default function Obra() {
           <p 
           className="text-[var(--azulazul-default)] font-poppins font-normal mt-10 bg-white/90 rounded-lg p-6 shadow-md"
           >
-          Obra em madeira entalhada por Mestre Fida, o “Homem-Cata-Vento” é uma escultura interativa que representa um homem com braços
-          articulados, que se movimentam com o vento. Carregando a força da tradição quilombola e a simplicidade da vida no campo, a peça
-          expressa a relação do homem com a natureza e traduz, de forma lúdica e simbólica, a criatividade popular nordestina. Com acabamento 
-          rústico e estrutura funcional, é uma representação viva da cultura ancestral do Timbó, combinando arte, movimento e identidade 
-          em uma criação única.
+            O Casaco Oco do Isaac conta a história de um menino, um casaco diferente e muitos segredos guardados entre as costuras da imaginação.
+            Com ilustrações delicadas de Deirdre Holanda e texto de Alexandre Revoredo, o livro encanta leitores pequenos e grandes, falando sobre memória, fantasia e afeto de forma leve e sensível. 🌿💛
+            Uma obra para quem acredita que as histórias podem aquecer, proteger e, acima de tudo, transformar. ✨🧥
           </p>
           <h2 className="text-4xl font-extrabold font-inter text-[var(--azulazul-default)] py-0 mt-25 bg-[var(--escala-de-cinzacinza-900)] border-b-2 -me-0 h-17 flex flex-row items-center"> Detalhes do produto</h2>
           <ul className="mt-12 bg-white/90 rounded-lg p-6 shadow-md">
