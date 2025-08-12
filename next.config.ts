@@ -1,11 +1,14 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: 'export',
   images: {
+    unoptimized: true,
     domains: [
-      'images.unsplash.com'
     ],
-  }
+  },
+  basePath: '/frontend-pe-na-arte',
+  assetPrefix: '/frontend-pe-na-arte/',
 };
 
 export default nextConfig;

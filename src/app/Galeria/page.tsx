@@ -46,7 +46,7 @@ export default function Galeria() {
       <HorizontalCard imageSrc="/obras/Luanda-ruanda/luanda-ruanda-capa1.svg" profileImage="/obras/Luanda-ruanda/luanda-ruanda2.svg" oberName="Contação de histórias Luanda Ruanda" />
     </div>
     <div className="flex flex-row items-start justify-items-start space-x-40 mt-20 ml-15">
-     <SimpleCard imageSrc="obras/revoredo/casaco-oco-isaac2.svg" profileImage="/artistas/revoredo-1.svg" oberName="Livro Casaco Oco do Isaac "/>
+     <SimpleCard imageSrc="/obras/revoredo/casaco-oco-isaac2.svg" profileImage="/artistas/revoredo-1.svg" oberName="Livro Casaco Oco do Isaac "/>
      <SimpleCard imageSrc="/obras/revoredo/dianimal-livro1.svg" profileImage="/artistas/revoredo-1.svg" oberName="Livro Dianimal"/>
      <VerticalCard imageSrc="/obras/revoredo/o-de-casa1.svg" oberName="Evento Ô de Casa" profileImage="/artistas/revoredo-1.svg"/>
     </div>
