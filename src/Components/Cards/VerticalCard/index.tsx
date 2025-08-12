@@ -1,6 +1,13 @@
 import UserIcon from '@/Components/UserIcon'
 
-export default function VerticalCard() {
+interface VerticalCardProps {
+  imageSrc?: string;
+  oberName?: string;
+  profileName?: string;
+  profileImage?: string;
+}
+
+export default function VerticalCard({ imageSrc, oberName, profileName, profileImage }: VerticalCardProps) {
     return (
         <>
           <div
@@ -15,6 +22,17 @@ export default function VerticalCard() {
         boxShadow: "0 4px 24px 0 rgba(0,0,0,0.13)",
       }}
     >
+      <img
+              src={imageSrc}
+              alt="Imagem do card"
+              style={{
+                width: '100%',
+                height: '100%',
+                top: 0,
+                left: 0,
+                objectFit: 'cover',
+              }}
+            />
       {/* Área principal do card */}
       <div
         style={{
@@ -41,11 +59,11 @@ export default function VerticalCard() {
         }}
       >
         {/* Círculo branco */}
-        <UserIcon />
+        <UserIcon imageSrc={profileImage}/>
         {/* Texto */}
         <div className="flex flex-col justify-center" style={{ flex: 1 }}>
-          <span className="text-white font-bold text-xl leading-6">Quadro estilizado</span>
-          <span className="text-[#FFD6C0] text-base" style={{ marginTop: "-2px" }}>Nome do Usuário</span>
+          <span className="text-white font-bold text-base font-poppins leading-6">{oberName}</span>
+          <span className="text-[#FFD6C0] font-poppins text-sm" style={{ marginTop: "-2px" }}>{profileName}</span>
         </div>
         {/* Botão Negociar */}
         <button

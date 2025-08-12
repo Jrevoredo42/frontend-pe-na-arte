@@ -1,11 +1,19 @@
 import Image from "next/image";
 import UserIcon from "@/Components/UserIcon";
 
-export default function HorizontalCard(){
+interface HorizontalCardProps {
+  imageSrc?: string;
+  profileImage?: string;
+  oberName?: string;
+  profileName?: string;
+}
+
+
+export default function HorizontalCard({ imageSrc, profileImage, oberName, profileName }: HorizontalCardProps){
     return (
         <>
           <div
-      className="rounded-[28px] shadow-lg overflow-hiddenw-full max-w-[500px]"
+      className="rounded-[30px] shadow-lg overflow-hiddenw-full max-w-[500px]"
       style={{
         width: "922px",
         height: "274px",
@@ -69,11 +77,11 @@ export default function HorizontalCard(){
         }}
       >
         {/* Círculo branco */}
-        <UserIcon />
+        <UserIcon imageSrc={profileImage} />
         {/* Texto */}
         <div className="flex flex-col justify-center" style={{ flex: 1 }}>
-          <span className="text-white font-bold text-2xl leading-6">Quadro estilizado</span>
-          <span className="text-[#FFD6C0] text-base" style={{ marginTop: "-2px" }}>Nome do Usuário</span>
+          <span className="text-white font-bold font-poppins text-lg leading-6">{oberName}</span>
+          <span className="text-[#FFD6C0] text-base" style={{ marginTop: "-2px" }}>{profileName}</span>
         </div>
         {/* Botão Visualizar Obra */}
         <button

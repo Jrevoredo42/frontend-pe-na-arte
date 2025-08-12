@@ -28,18 +28,18 @@ const Select = () => {
 export default function PricingCard(){
     return (
       
-   <div className="w-85 h-172.5 ml-30 rounded-lg shadow-sm overflow-hidden shadow-slate-950/25 max-w-xs bg-[var(--azulazul-light)] ">
+   <div className="w-85 h-200 ml-30 rounded-lg shadow-sm overflow-hidden shadow-slate-950/25 max-w-xs bg-[var(--azulazul-light)] ">
     <div className="flex items-end mt-7 ml-5">
       <span className="text-[var(--branco-penaarte)] text-3xl font-bold relative" style={{ top: '-0.7em' }}>R$</span>
-      <span className="text-[var(--branco-penaarte)] text-6xl font-bold leading-none mx-2">250</span>
+      <span className="text-[var(--branco-penaarte)] text-6xl font-bold leading-none mx-2">30,00</span>
       <span className="text-[var(--branco-penaarte)] text-2xl font-bold relative" style={{ top: '-0.5em' }}>50</span>
     </div>  
     <div className="mt-5">
-      <span className="text-[var(--branco-penaarte)] font-bold text-[30px] ml-5">Homem Cata-Vento</span>
+      <span className="text-[var(--branco-penaarte)] font-bold text-[30px] ml-7 flex flex-row items-center justify-center">O casaco oco do Isaac</span>
     </div>
     <ul className="flex flex-wrap mt-3 ml-5">
-      <li className="bg-[var(--laranjalaranja-default)] text-[var(--branco-penaarte)] text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm">Artes Plásticas</li>
-      <li className="bg-[var(--amareloamarelo-default)] text-[var(--branco-penaarte)] text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm">Madeira</li>
+      <li className="bg-[var(--laranjalaranja-default)] text-[var(--branco-penaarte)] text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm">Livro</li>
+      <li className="bg-[var(--amareloamarelo-default)] text-[var(--branco-penaarte)] text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm">Literatura infantil</li>
     </ul>
     <p className="text-[var(--branco-penaarte)] mt-3 p-3">Os atributos de importação estão incluídos, você não terá custos extras.</p>
     <Select />

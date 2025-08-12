@@ -8,7 +8,7 @@ export default function Gallery(){
           <div>
             <Image
               className="h-full w-full max-w-full object-cover object-center rounded-lg"
-              src={'/obras/fida/fida-principal.jpg'}
+              src={'/obras/revoredo/casaco-oco-isaac1.svg'}
               width={403}
               height={393}
               style={{ width: "393px", height: "403px", objectFit: "cover" }}
