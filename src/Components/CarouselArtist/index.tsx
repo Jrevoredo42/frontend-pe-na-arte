@@ -4,15 +4,15 @@ import { useState } from 'react';
 
 
 const artist = {
-  name: "Nome do artista",
-  details: "detalhes",
+  name: "Revoredo",
+  details: "Músico e Produtor Musical",
   description:
-    "simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizada desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco",
-  color: "#FFB800",
+    "Sou músico e produtor musical apaixonado por criar experiências sonoras únicas. Trabalho com diversos estilos e estou sempre aberto a novas colaborações. Vamos conversar e transformar ideias em música!",
+  profileImage: "/artistas/revoredo-1.svg",
   images: [
-    "/art1.jpg",
-    "/art2.jpg",
-    "/art3.jpg"
+    "/obras/revoredo/revoredo-capa1.svg",
+    "/artistas/revoredo-capa.svg",
+    "/obras/revoredo/revoredo-disco2.svg"
   ],
 };
 
@@ -45,13 +45,15 @@ export default function CarouselArtist() {
         >
           <div className="flex items-center gap-5 mb-2">
             <div
-              className="rounded-full flex-shrink-0"
-              style={{
-                width: "70px",
-                height: "70px",
-                background: artist.color,
-              }}
-            ></div>
+              className="rounded-full flex-shrink-0 overflow-hidden bg-gray-200"
+              style={{ width: "70px", height: "70px" }}
+            >
+              <img
+                src={artist.profileImage}
+                alt={artist.name}
+                className="object-cover w-full h-full"
+              />
+            </div>
             <div>
               <div className="text-white text-xl font-bold">{artist.name}</div>
               <div className="text-white text-base">{artist.details}</div>

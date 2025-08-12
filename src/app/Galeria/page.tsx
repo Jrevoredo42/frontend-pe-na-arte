@@ -4,8 +4,6 @@ import HorizontalCard from "@/Components/Cards/HorizontalCard";
 import Image from "next/image";
 import CarouselArtist from "@/Components/CarouselArtist";
 
-  {/*<Link href="/Artista">Link pra página do artista</Link>
-  <Link href="/Obra">Link pra página do Obra</Link>*/}
 
   const FilterButton = () => {
     return(

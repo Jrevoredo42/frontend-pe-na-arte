@@ -14,21 +14,48 @@ export default function HorizontalCard(){
         flexDirection: "column",
         justifyContent: "flex-end",
         boxShadow: "0 4px 24px 0 rgba(0,0,0,0.13)",
+        borderTopLeftRadius: "30px",
+        borderTopRightRadius: "30px",
       }}
     >
+      {imageSrc ? (
+          imageSrc.endsWith('.svg') ? (
+            <img
+              src={imageSrc}
+              alt="Imagem do card"
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                top: 0,
+                left: 0,
+              }}
+            />
+          ) : (
+            <Image
+              src={imageSrc}
+              alt="Imagem do card"
+              fill
+              style={{
+                objectFit: 'cover',
+              }}
+              sizes="(max-width: 922px) 100vw, 922px"
+              priority
+            />
+          )
+        ) : null}
       {/* Área principal do card */}
       <div
         style={{
           flex: 1,
-          background: "var(--verdeverde-default)",
-          borderTopLeftRadius: "28px",
-          borderTopRightRadius: "28px",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
+          width: '100%',
+          height: '100%',
+          position: 'relative',
+          borderTopLeftRadius: '28px',
+          borderTopRightRadius: '28px',
+          overflow: 'hidden',
         }}
       >
-        {/* Espaço para imagem ou conteúdo central */}
       </div>
       {/* Área inferior colorida */}
       <div
