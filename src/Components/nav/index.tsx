@@ -64,7 +64,7 @@ export default function HomeNav(){
             <div className="flex flex-row items-center gap-9">
               <SearchBar />
               <Image className="font-sans antialiased font-medium text-base md:text-lg lg:text-xl text-current cursor-pointer hover:bg-[var(--branco-penaarte)]" width={30} height={30} src={"/icons/heart.svg"} alt="" />
-              <UserIcon />
+              <UserIcon imageSrc="/artistas/revoredo-1.svg" />
             </div>
           )}
          </div>
