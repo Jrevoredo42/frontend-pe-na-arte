@@ -18,7 +18,7 @@ export default function Gallery(){
           {/* 4 imagens pequenas à direita, divididas em 2x2 */}
           <div className="grid grid-cols-2 grid-rows-2 gap-4">
             <Image
-              src={"/obras/fida/fida-1.jpg"}
+              src={"/obras/revoredo/casaco-oco-isaac-principal1.svg"}
               className="h-[80px] w-full cursor-pointer rounded-lg object-cover object-center"
               alt="gallery-image"
               width={193}
@@ -26,7 +26,7 @@ export default function Gallery(){
               style={{ width: "193px", height: "190px", objectFit: "cover" }}
             />
             <Image
-              src={"/obras/fida/fida-2.jpg"}
+              src={"/obras/revoredo/casaco-oco-isaac1.svg"}
               className="h-[80px] w-full cursor-pointer rounded-lg object-cover object-center"
               alt="gallery-image"
               width={193}
@@ -34,7 +34,7 @@ export default function Gallery(){
               style={{ width: "193px", height: "190px", objectFit: "cover" }}
             />
             <Image
-              src={"/obras/fida/fida-3.jpg"}
+              src={"/obras/revoredo/casaco-oco-isaac2.svg"}
               className="h-[80px] w-full cursor-pointer rounded-lg object-cover object-center"
               alt="gallery-image"
               width={193}
@@ -42,7 +42,7 @@ export default function Gallery(){
               style={{ width: "193px", height: "190px", objectFit: "cover" }}
             />
             <Image
-              src={"/obras/fida/fida-4.jpg"}
+              src={"/obras/revoredo/casaco-oco-isaac3.svg"}
               className="h-[80px] w-full cursor-pointer rounded-lg object-cover object-center"
               alt="gallery-image"
               width={193}
