@@ -7,8 +7,6 @@ const nextConfig: NextConfig = {
     domains: [
     ],
   },
-  basePath: '/frontend-pe-na-arte',
-  assetPrefix: '/frontend-pe-na-arte/',
 };
 
 export default nextConfig;
