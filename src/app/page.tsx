@@ -26,7 +26,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col items-center md:items-start ml-18 mt-7"> 
             <p className="font-poppins text-white text-lg max-w-md mb-6 text-center md:text-left">
-              O PE NA ARTE - Portal Cultural é um sistema/portal cultural especializado em fortalecer a rede produtiva/criativa de artistas, produtos e serviços culturais, no intuito de promover o patrimônio cultural material e imaterial de Pernambuco nas mais diversas áreas artísticas. O portal terá um funcionamento permanente e atuará no fortalecimento dos trabalhadores da arte do estado de Pernambuco.            </p>
+              O PE NA ARTE - Portal Cultural é um sistema/portal cultural especializado em fortalecer a rede produtiva/criativa de artistas, produtos e serviços culturais de Pernambuco.</p>
             <button className="font-poppins font-regular px-8 py-3 rounded-full border-2 border-[var(--laranjalaranja-default)] text-white font-bold hover:bg-[var(--laranjalaranja-default)] transition">
               Saiba Mais
             </button>
